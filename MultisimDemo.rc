@@ -1,0 +1,1787 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "fores.h"
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""fores.h""\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\MultisimDemo.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "#include ""fores.rc""\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_SAMPLETYPE          ICON    DISCARDABLE     "res\\idr_mult.ico"
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\MultisimDemo.ico"
+IDR_MULTISTYPE          ICON    DISCARDABLE     "res\\MultisimDemoDoc.ico"
+IDI_FILE_ICON           ICON    DISCARDABLE     "res\\ico00001.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_TITLE        BITMAP  DISCARDABLE     "res\\mintitle.bmp"
+IDR_NEW_FORMAT          BITMAP  DISCARDABLE     "res\\fo_toolbar1.bmp"
+IDR_FONT_BAR            BITMAP  DISCARDABLE     "res\\toolbar1.bmp"
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_MB_COMP_TYPE        BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDB_NEW_COMP_TYPE       BITMAP  DISCARDABLE     "res\\mb_comp_.bmp"
+IDB_MB_TRS_LIST         BITMAP  DISCARDABLE     "res\\mb_trs_l.bmp"
+IDB_BITMAP_TEMP         BITMAP  DISCARDABLE     "res\\bmp283.bmp"
+IDR_TEMP                BITMAP  DISCARDABLE     "res\\font_bar.bmp"
+IDR_TOOLBAR_DRAW_ADV    BITMAP  DISCARDABLE     "res\\toolbar_.bmp"
+IDB_MB_BITMAP_REMOVE    BITMAP  DISCARDABLE     "res\\bmp00003.bmp"
+IDB_BITMAP_OPEN         BITMAP  DISCARDABLE     "res\\bitmap_n.bmp"
+IDB_BITMAP_DROPARROW    BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MULTISTYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Test S&ample Project...",     ID_OPEN_SAMPLES
+        MENUITEM SEPARATOR
+        MENUITEM "&New Project...",             ID_NEW_PROJECT
+        MENUITEM SEPARATOR
+        MENUITEM "&New Screen File\tCtrl+N",    ID_FILE_NEW
+        MENUITEM "New Sc&ript File",            ID_NEW_SCRIPT
+        MENUITEM SEPARATOR
+        MENUITEM "&Open File...\tCtrl+O",       ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "&Open Project...",            ID_OPEN_PROJECT
+        MENUITEM "&Save Project",               ID_SAVE_PROJECT
+        MENUITEM "&Close Project",              ID_CLOSE_PROJECT
+        MENUITEM SEPARATOR
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM "Sa&ve All",                   ID_SAVE_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "&Export...",                  ID_FO_FILE_EXPORT
+        MENUITEM "Import &SVG File...",         ID_CONVERT_SVG_SHAPES
+        MENUITEM SEPARATOR
+        MENUITEM "&Header and Footer...",       ID_FO_PRINT_HEADER_FOOTER
+        MENUITEM "Page S&etup...",              ID_FILE_PAGE_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        POPUP "&Recent Files"
+        BEGIN
+            MENUITEM "Recent File",                 ID_FILE_MRU_FILE1
+            , GRAYED
+        END
+        POPUP "&Recent Workspaces"
+        BEGIN
+            MENUITEM "&Recent Workspaces",          ID_PROJECT_MRU_FILE1
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM "&Redo\tCtrl+Y",               ID_EDIT_REDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM "Multiple D&uplicate...",      ID_EDIT_MULTI_DUP
+        MENUITEM SEPARATOR
+        MENUITEM "Clea&r\tDel",                 ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Find...\tCtrl+F",            ID_FO_EDIT_FIND
+        MENUITEM "&Find and Replace...\tCtrl+H", ID_FO_EDIT_FIND_REPLACE
+        MENUITEM SEPARATOR
+        MENUITEM "Select &All\tCtrl+A",         ID_EDIT_SELECT_ALL
+        MENUITEM "Select all &Shapes",          ID_SELECT_ALL_TEXT
+        MENUITEM "Select all &Links",           ID_SLEECT_ALL_FIELDS
+        MENUITEM SEPARATOR
+        MENUITEM "Clear A&ll\tShift+Del",       ID_EDIT_CLEAR_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "&Hide all default snap feature", ID_HIDE_ALL_SNAP
+        MENUITEM SEPARATOR
+        MENUITEM "Them&e - Colors...",          ID_FO_COLORTHEME
+        MENUITEM SEPARATOR
+        MENUITEM "Insert &Objects...",          ID_INSERT_OBJECTS
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Normal",                     ID_FO_VIEW_NORMAL
+        MENUITEM "&Master",                     ID_FO_VIEW_EDITBACK
+        MENUITEM SEPARATOR
+        MENUITEM "&Full Screen",                ID_VIEW_FULLSCREEN
+        MENUITEM SEPARATOR
+        POPUP "&Application Look"
+        BEGIN
+            MENUITEM "Microsoft Office 2000 Look!", ID_LOOK_STANDARD
+            MENUITEM "Microsoft Office XP Look!",   ID_LOOK_XP
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "D&esign",                     ID_FO_DESIGN
+        MENUITEM "&Ruler",                      ID_VIEW_RULER
+        MENUITEM "&Draw Bar",                   ID_VIEW_DRAWBAR
+        MENUITEM "&Format Bar",                 ID_VIEW_FORMATBAR
+        MENUITEM "&Palette Bar",                ID_VIEW_PALETTEBAR
+        MENUITEM "Tool&Box",                    ID_VIEW_TOOLBOX
+        MENUITEM SEPARATOR
+        MENUITEM "&Hide Pin Number",            ID_HIDE_PIN_NUMBER
+        MENUITEM "Hide pin name",               ID_HIDE_PIN_LABEL
+        MENUITEM SEPARATOR
+        MENUITEM "Form &Setting...",            ID_FO_FORM_SETTING
+        MENUITEM "Grid &Properties...",         ID_FO_GRID_PROP
+        MENUITEM SEPARATOR
+        MENUITEM "&Components...",              ID_FO_COMPS_SELECT
+    END
+    POPUP "&Page"
+    BEGIN
+        MENUITEM "&Add Page\tCtrl+A",           ID_FO_ADD_NEWPAGE
+        MENUITEM "&Remove Page\tCtrl+R",        ID_FO_REMOVE_PAGE
+        MENUITEM "&Duplicate Page...",          ID_MB_CREATEPAGE_COPY
+        MENUITEM SEPARATOR
+        MENUITEM "&Rename Page\tCtrl+R",        ID_FO_PAGE_CAPTION
+        MENUITEM SEPARATOR
+        MENUITEM "&Previous Page\tAlt+Shift+Up", ID_MOVE_PREVIOUS
+        MENUITEM "&Next Page\tAlt+Shift+Down",  ID_MOVE_NEXT
+    END
+    POPUP "&Project"
+    BEGIN
+        MENUITEM "&Add new screen...",          ID_ADD_NEW_SCREEN
+        MENUITEM "Add new script...",           ID_ADD_NEW_SCRIPT
+        MENUITEM SEPARATOR
+        MENUITEM "&Generate Netlist...",        ID_TEST_SAVE_LINKS
+    END
+    POPUP "&Tool"
+    BEGIN
+        MENUITEM "&Insert Custom Shape...",     ID_NEW_SHAPE
+        MENUITEM "Horizontal Bus...",           ID_ADD_BUS
+        MENUITEM "Vertical Bus...",             ID_ADD_VERT_BUS
+        MENUITEM "Junction...",                 ID_ADD_DOT
+        MENUITEM SEPARATOR
+        MENUITEM "&Custom Property...",         ID_FO_CUSTOM_PROPERTIES
+        MENUITEM "&Save Data to file...",       ID_SAVE_DATA
+        MENUITEM "&Capture Screen Area",        ID_BUTTON_EXPORT_CANVAS
+        MENUITEM "&Symbols...",                 ID_DRAW_SHAPE
+    END
+    POPUP "Format"
+    BEGIN
+        MENUITEM "Edit &Points",                ID_FO_EDIT_SPOTS
+        MENUITEM "Property &Manager...",        ID_FO_PROP_MANAGER
+        MENUITEM SEPARATOR
+        MENUITEM "Con&vert to Bezier Curve",    ID_FO_CONVERT_PATH
+        MENUITEM "Convert to Pol&ygon",         ID_FO_CONVERT_POLYGON
+        MENUITEM SEPARATOR
+        MENUITEM "Connect L&ines",              ID_FO_CONNECT_LINES
+        MENUITEM "&Break Line",                 ID_FO_BREAK_LINES
+        MENUITEM "Close &Object",               ID_FO_CLOSESHAPE
+        MENUITEM SEPARATOR
+        MENUITEM "&Distribution...",            ID_FO_DISTRIBUTION
+        MENUITEM SEPARATOR
+        MENUITEM "&Make SubGraph",              ID_FO_MAKE_SUBGRAPH
+        MENUITEM "UnMake S&ubGraph",            ID_FO_UNGRAOUP_SUBGRAPH
+        MENUITEM SEPARATOR
+        MENUITEM "&Group",                      ID_FO_GROUP
+        MENUITEM "&UnGroup",                    ID_FO_UNGROUP
+        MENUITEM SEPARATOR
+        POPUP "&Rotate or Flip"
+        BEGIN
+            MENUITEM "&Free Rotate",                ID_FO_ROTATE
+            MENUITEM SEPARATOR
+            MENUITEM "Rotate &Left",                ID_FO_ROTATE_LEFT
+            MENUITEM "Rotate &Right",               ID_FO_ROTATE_RIGHT
+            MENUITEM "Flip &Horizontal",            ID_FO_FLIP_HORZ
+            MENUITEM "Flip Vertical",               ID_FO_FLIP_VERT
+        END
+        POPUP "&Order"
+        BEGIN
+            MENUITEM "&Bring to Front",             ID_FO_FRONT
+            MENUITEM "&Send to Back",               ID_FO_BACK
+            MENUITEM "Bring &Forward",              ID_FO_FORWARD
+            MENUITEM "Send Bac&kward",              ID_FO_BACKWARD
+            MENUITEM SEPARATOR
+            MENUITEM "&Infront Object",             ID_FO_INFRONT_SHAPE
+            MENUITEM "&Behind Object",              ID_FO_BEHIND_SHAPE
+            MENUITEM SEPARATOR
+            MENUITEM "&Reverse Order",              ID_FO_REVERSE_ORDER
+            MENUITEM SEPARATOR
+            MENUITEM "Send to bac&kground",         ID_FO_SET_BACKGROUND
+        END
+        MENUITEM SEPARATOR
+        POPUP "&Align"
+        BEGIN
+            MENUITEM "Align &Left",                 ID_FO_ALIGN_LEFT
+            MENUITEM "Align &Center",               ID_FO_ALIGN_CENTER
+            MENUITEM "Align &Right",                ID_FO_ALIGN_RIGHT
+            MENUITEM SEPARATOR
+            MENUITEM "Align &Top",                  ID_FO_ALIGN_TOP
+            MENUITEM "Align &Middle",               ID_FO_ALIGN_VCENTER
+            MENUITEM "Align &Bottom",               ID_FO_ALIGN_BOTTOM
+            MENUITEM SEPARATOR
+            MENUITEM "&Allow main object",          ID_FO_ALLOW_MAIN
+        END
+        POPUP "&Make Same Size"
+        BEGIN
+            MENUITEM "&Width",                      ID_FO_SIZE_WIDTH
+            MENUITEM "&Height",                     ID_FO_SIZE_HEIGHT
+            MENUITEM SEPARATOR
+            MENUITEM "&Both",                       ID_FO_SIZE_ALL
+        END
+        POPUP "&Center in Form"
+        BEGIN
+            MENUITEM "&Horizontal",                 ID_FO_ALIGN_INVIEW_HOR
+            MENUITEM "&Vertical",                   ID_FO_ALIGN_INVIEW_VER
+        END
+        MENUITEM SEPARATOR
+        POPUP "&Space Evenly"
+        BEGIN
+            MENUITEM "&Across",                     ID_FO_SPACE_ACROSS
+            MENUITEM "&Down",                       ID_FO_SPACE_DOWN
+        END
+        POPUP "&Operations"
+        BEGIN
+            MENUITEM "&Merge",                      ID_FO_SHAPES_MERGE_MERGE
+            MENUITEM "&Combine",                    ID_FO_SHAPES_COMBINE
+            MENUITEM "&Intersect",                  ID_FO_SHAPES_MERGE_INTERSECT
+
+            MENUITEM "&Substract",                  ID_FO_SHAPES_MERGE_SUBSTRACT
+
+            MENUITEM "&Dismantle",                  ID_FO_SHAPES_DISMANTLE
+        END
+        POPUP "Nudge"
+        BEGIN
+            MENUITEM "Nudge Left",                  ID_FO_CMD_NUDGELEFT
+            MENUITEM "Nudge Right",                 ID_FO_CMD_NUDGERIGHT
+            MENUITEM "Nudge Top",                   ID_FO_CMD_NUDGETOP
+            MENUITEM "Nudge Bottom",                ID_FO_CMD_NUDGEBOTTOM
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Tab &Order\tCtrl+D",          ID_FO_TAB_ORDER
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "Ne&xt\tCtrl+F6",              ID_WINDOW_NEXT
+        MENUITEM "Prev&ious\tCtrl+Shift+F6",    ID_WINDOW_PREV
+        MENUITEM "Clo&se\tAlt+F4",              ID_WINDOW_CLOSE
+        MENUITEM "Close &All",                  ID_FILE_CLOSE_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "Tile &Horizontally",          ID_WINDOW_TILE_HORZ
+        MENUITEM "Tile &Vertically",            ID_WINDOW_TILE_VERT
+        MENUITEM SEPARATOR
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+        MENUITEM SEPARATOR
+        MENUITEM "&Windows...",                 ID_WINDOW_MANAGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About MultisimDemo...",      ID_APP_ABOUT
+    END
+END
+
+IDR_NEW_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "popup"
+    BEGIN
+        MENUITEM "Name && Key Value(&S)...",    ID_FO_KEY_PROPERTIES
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl + X",              ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl + C",             ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl + V",            ID_EDIT_PASTE
+        MENUITEM "Multiple D&uplicate...",      ID_EDIT_MULTI_DUP
+        MENUITEM SEPARATOR
+        MENUITEM "&Delete\tDel",                ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "Select &All\tCtrl+A",         ID_EDIT_SELECT_ALL
+        MENUITEM SEPARATOR
+        POPUP "&Rotate"
+        BEGIN
+            MENUITEM "Filp Horizontally",           ID_FLIP_HORZ
+            MENUITEM "Flip Vertically",             ID_FLIP_VERT
+            MENUITEM "90",                          ID_ROTATE_900
+            MENUITEM "180",                         ID_ROTATE_1800
+            MENUITEM "270",                         ID_ROTATE_2700
+        END
+        POPUP "&View"
+        BEGIN
+            MENUITEM "Zoom to 50%",                 ID_FO_VIEW_ZOOM50
+            MENUITEM SEPARATOR
+            MENUITEM "Zoom to 100%",                ID_FO_VIEW_ZOOM100
+            MENUITEM "Zoom to 200%",                ID_FO_VIEW_ZOOM200
+            MENUITEM SEPARATOR
+            MENUITEM "&Whole Page",                 ID_FO_ZOOMFITPAGE
+            MENUITEM "Page Wi&dth",                 ID_FO_ZOOMFITWIDTH
+            MENUITEM "Page &Height",                ID_FO_ZOOMFITHEIGHT
+            MENUITEM SEPARATOR
+            MENUITEM "Fit &Selection",              ID_FO_ZOOM_FITSELECT
+        END
+        POPUP "&Properties"
+        BEGIN
+            MENUITEM "&Text...",                    ID_FO_TEXT_PROPERTIES
+            MENUITEM "&Protection...",              ID_FO_PROT_PROPERTIES
+            MENUITEM "&Line...",                    ID_FO_LINE_PROPERTIES
+            MENUITEM "&Fill...",                    ID_FO_FILL_PROPERTIES
+            MENUITEM "&Shadow...",                  ID_FO_SHADOW_PROPERTIES
+            MENUITEM "&Event...",                   ID_FO_EVENT_PROPERTIES
+            MENUITEM SEPARATOR
+            MENUITEM "&Custom...",                  ID_FO_CUSTOM_PROPERTIES
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Relink Sub &System...",       ID_MAT_RELINK
+        MENUITEM "&Layer...",                   ID_FO_LAYER_PROP
+        MENUITEM "&Bullets...",                 ID_FO_BULLETED
+        MENUITEM "Position and S&ize...",       ID_FO_POS_PROPERTIES
+        MENUITEM SEPARATOR
+        MENUITEM "Property &Manager...",        ID_FO_PROP_MANAGER
+        MENUITEM "&Page Setting...",            ID_FO_FORM_SETTING
+        MENUITEM "Grid Pro&perties...",         ID_FO_GRID_PROP
+        MENUITEM "Com&ponents...",              ID_FO_COMPS_SELECT
+    END
+END
+
+IDR_SAMPLETYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Test S&ample Project...",     ID_OPEN_SAMPLES
+        MENUITEM SEPARATOR
+        MENUITEM "&New Project...",             ID_NEW_PROJECT
+        MENUITEM SEPARATOR
+        MENUITEM "&New Screen File\tCtrl+N",    ID_FILE_NEW
+        MENUITEM "New Sc&ript File",            ID_NEW_SCRIPT
+        MENUITEM SEPARATOR
+        MENUITEM "&Open File...\tCtrl+O",       ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "&Open Project...",            ID_OPEN_PROJECT
+        MENUITEM "&Save Project",               ID_SAVE_PROJECT
+        MENUITEM "&Close Project",              ID_CLOSE_PROJECT
+        MENUITEM SEPARATOR
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM "Sa&ve All",                   ID_SAVE_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "&Export...",                  ID_FO_FILE_EXPORT
+        MENUITEM "Import &SVG File...",         ID_CONVERT_SVG_SHAPES
+        MENUITEM SEPARATOR
+        MENUITEM "&Header and Footer...",       ID_FO_PRINT_HEADER_FOOTER
+        MENUITEM "Page S&etup...",              ID_FILE_PAGE_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        POPUP "&Recent Files"
+        BEGIN
+            MENUITEM "Recent File",                 ID_FILE_MRU_FILE1
+            , GRAYED
+        END
+        POPUP "&Recent Workspaces"
+        BEGIN
+            MENUITEM "&Recent Workspaces",          ID_PROJECT_MRU_FILE1
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM "&Redo\tCtrl+Y",               ID_EDIT_REDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM "Multiple D&uplicate...",      ID_EDIT_MULTI_DUP
+        MENUITEM SEPARATOR
+        MENUITEM "Clea&r\tDel",                 ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "Select &All\tCtrl+A",         ID_EDIT_SELECT_ALL
+        MENUITEM "Clear A&ll\tShift+Del",       ID_EDIT_CLEAR_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "Them&e - Colors...",          ID_FO_COLORTHEME
+        MENUITEM SEPARATOR
+        MENUITEM "Insert &Objects...",          ID_INSERT_OBJECTS
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Normal",                     ID_FO_VIEW_NORMAL
+        MENUITEM "&Master",                     ID_FO_VIEW_EDITBACK
+        MENUITEM SEPARATOR
+        MENUITEM "&Full Screen",                ID_VIEW_FULLSCREEN
+        MENUITEM SEPARATOR
+        POPUP "&Application Look"
+        BEGIN
+            MENUITEM "Microsoft Office 2000 Look!", ID_LOOK_STANDARD
+            MENUITEM "Microsoft Office XP Look!",   ID_LOOK_XP
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "D&esign",                     ID_FO_DESIGN
+        MENUITEM "&Ruler",                      ID_VIEW_RULER
+        MENUITEM "&Draw Bar",                   ID_VIEW_DRAWBAR
+        MENUITEM "&Format Bar",                 ID_VIEW_FORMATBAR
+        MENUITEM "&Palette Bar",                ID_VIEW_PALETTEBAR
+        MENUITEM "Tool&Box",                    ID_VIEW_TOOLBOX
+        MENUITEM SEPARATOR
+        MENUITEM "Form &Setting...",            ID_FO_FORM_SETTING
+        MENUITEM "Grid &Properties...",         ID_FO_GRID_PROP
+        MENUITEM SEPARATOR
+        MENUITEM "&Components...",              ID_FO_COMPS_SELECT
+    END
+    POPUP "&Page"
+    BEGIN
+        MENUITEM "&Add Page\tCtrl+A",           ID_FO_ADD_NEWPAGE
+        MENUITEM "&Remove Page\tCtrl+R",        ID_FO_REMOVE_PAGE
+        MENUITEM "&Duplicate Page...",          ID_MB_CREATEPAGE_COPY
+        MENUITEM SEPARATOR
+        MENUITEM "&Rename Page\tCtrl+R",        ID_FO_PAGE_CAPTION
+        MENUITEM SEPARATOR
+        MENUITEM "&Previous Page\tAlt+Shift+Up", ID_MOVE_PREVIOUS
+        MENUITEM "&Next Page\tAlt+Shift+Down",  ID_MOVE_NEXT
+    END
+    POPUP "&Project"
+    BEGIN
+        MENUITEM "&Add new screen...",          ID_ADD_NEW_SCREEN
+        MENUITEM "Add new script...",           ID_ADD_NEW_SCRIPT
+    END
+    POPUP "&Insert"
+    BEGIN
+        MENUITEM "&Insert Custom Shape...",     ID_NEW_SHAPE
+        MENUITEM SEPARATOR
+        MENUITEM "&Custom Property...",         ID_FO_CUSTOM_PROPERTIES
+        MENUITEM "&Save Data to file...",       ID_SAVE_DATA
+    END
+    POPUP "Format"
+    BEGIN
+        MENUITEM "Edit &Points",                ID_FO_EDIT_SPOTS
+        MENUITEM "Property &Manager...",        ID_FO_PROP_MANAGER
+        MENUITEM SEPARATOR
+        MENUITEM "Con&vert to Bezier Curve",    ID_FO_CONVERT_PATH
+        MENUITEM "Convert to Pol&ygon",         ID_FO_CONVERT_POLYGON
+        MENUITEM SEPARATOR
+        MENUITEM "Connect L&ines",              ID_FO_CONNECT_LINES
+        MENUITEM "&Break Line",                 ID_FO_BREAK_LINES
+        MENUITEM "Close &Object",               ID_FO_CLOSESHAPE
+        MENUITEM SEPARATOR
+        MENUITEM "&Distribution...",            ID_FO_DISTRIBUTION
+        MENUITEM SEPARATOR
+        MENUITEM "&Make SubGraph",              ID_FO_MAKE_SUBGRAPH
+        MENUITEM "UnMake S&ubGraph",            ID_FO_UNGRAOUP_SUBGRAPH
+        MENUITEM SEPARATOR
+        MENUITEM "&Group",                      ID_FO_GROUP
+        MENUITEM "&UnGroup",                    ID_FO_UNGROUP
+        MENUITEM SEPARATOR
+        POPUP "&Rotate or Flip"
+        BEGIN
+            MENUITEM "&Free Rotate",                ID_FO_ROTATE
+            MENUITEM SEPARATOR
+            MENUITEM "Rotate &Left",                ID_FO_ROTATE_LEFT
+            MENUITEM "Rotate &Right",               ID_FO_ROTATE_RIGHT
+            MENUITEM "Flip &Horizontal",            ID_FO_FLIP_HORZ
+            MENUITEM "Flip Vertical",               ID_FO_FLIP_VERT
+        END
+        POPUP "&Order"
+        BEGIN
+            MENUITEM "&Bring to Front",             ID_FO_FRONT
+            MENUITEM "&Send to Back",               ID_FO_BACK
+            MENUITEM "Bring &Forward",              ID_FO_FORWARD
+            MENUITEM "Send Bac&kward",              ID_FO_BACKWARD
+            MENUITEM SEPARATOR
+            MENUITEM "&Infront Object",             ID_FO_INFRONT_SHAPE
+            MENUITEM "&Behind Object",              ID_FO_BEHIND_SHAPE
+            MENUITEM SEPARATOR
+            MENUITEM "&Reverse Order",              ID_FO_REVERSE_ORDER
+            MENUITEM SEPARATOR
+            MENUITEM "Send to bac&kground",         ID_FO_SET_BACKGROUND
+        END
+        MENUITEM SEPARATOR
+        POPUP "&Align"
+        BEGIN
+            MENUITEM "Align &Left",                 ID_FO_ALIGN_LEFT
+            MENUITEM "Align &Center",               ID_FO_ALIGN_CENTER
+            MENUITEM "Align &Right",                ID_FO_ALIGN_RIGHT
+            MENUITEM SEPARATOR
+            MENUITEM "Align &Top",                  ID_FO_ALIGN_TOP
+            MENUITEM "Align &Middle",               ID_FO_ALIGN_VCENTER
+            MENUITEM "Align &Bottom",               ID_FO_ALIGN_BOTTOM
+            MENUITEM SEPARATOR
+            MENUITEM "&Allow main object",          ID_FO_ALLOW_MAIN
+        END
+        POPUP "&Make Same Size"
+        BEGIN
+            MENUITEM "&Width",                      ID_FO_SIZE_WIDTH
+            MENUITEM "&Height",                     ID_FO_SIZE_HEIGHT
+            MENUITEM SEPARATOR
+            MENUITEM "&Both",                       ID_FO_SIZE_ALL
+        END
+        POPUP "&Center in Form"
+        BEGIN
+            MENUITEM "&Horizontal",                 ID_FO_ALIGN_INVIEW_HOR
+            MENUITEM "&Vertical",                   ID_FO_ALIGN_INVIEW_VER
+        END
+        MENUITEM SEPARATOR
+        POPUP "&Space Evenly"
+        BEGIN
+            MENUITEM "&Across",                     ID_FO_SPACE_ACROSS
+            MENUITEM "&Down",                       ID_FO_SPACE_DOWN
+        END
+        POPUP "&Operations"
+        BEGIN
+            MENUITEM "&Merge",                      ID_FO_SHAPES_MERGE_MERGE
+            MENUITEM "&Combine",                    ID_FO_SHAPES_COMBINE
+            MENUITEM "&Intersect",                  ID_FO_SHAPES_MERGE_INTERSECT
+
+            MENUITEM "&Substract",                  ID_FO_SHAPES_MERGE_SUBSTRACT
+
+            MENUITEM "&Dismantle",                  ID_FO_SHAPES_DISMANTLE
+        END
+        POPUP "Nudge"
+        BEGIN
+            MENUITEM "Nudge Left",                  ID_FO_CMD_NUDGELEFT
+            MENUITEM "Nudge Right",                 ID_FO_CMD_NUDGERIGHT
+            MENUITEM "Nudge Top",                   ID_FO_CMD_NUDGETOP
+            MENUITEM "Nudge Bottom",                ID_FO_CMD_NUDGEBOTTOM
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Tab &Order\tCtrl+D",          ID_FO_TAB_ORDER
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "Ne&xt\tCtrl+F6",              ID_WINDOW_NEXT
+        MENUITEM "Prev&ious\tCtrl+Shift+F6",    ID_WINDOW_PREV
+        MENUITEM "Clo&se\tAlt+F4",              ID_WINDOW_CLOSE
+        MENUITEM "Close &All",                  ID_FILE_CLOSE_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "Tile &Horizontally",          ID_WINDOW_TILE_HORZ
+        MENUITEM "Tile &Vertically",            ID_WINDOW_TILE_VERT
+        MENUITEM SEPARATOR
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+        MENUITEM SEPARATOR
+        MENUITEM "&Windows...",                 ID_WINDOW_MANAGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About MultisimDemo...",      ID_APP_ABOUT
+    END
+END
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Test S&ample Project...",     ID_OPEN_SAMPLES
+        MENUITEM SEPARATOR
+        MENUITEM "&New Project...",             ID_NEW_PROJECT
+        MENUITEM SEPARATOR
+        MENUITEM "&New Screen File\tCtrl+N",    ID_FILE_NEW
+        MENUITEM "New Sc&ript File",            ID_NEW_SCRIPT
+        MENUITEM SEPARATOR
+        MENUITEM "&Open File...\tCtrl+O",       ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "&Open Project...",            ID_OPEN_PROJECT
+        MENUITEM "&Save Project",               ID_SAVE_PROJECT
+        MENUITEM "&Close Project",              ID_CLOSE_PROJECT
+        MENUITEM SEPARATOR
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM "Sa&ve All",                   ID_SAVE_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "&Export...",                  ID_FO_FILE_EXPORT
+        MENUITEM "Import &SVG File...",         ID_CONVERT_SVG_SHAPES
+        MENUITEM SEPARATOR
+        MENUITEM "&Header and Footer...",       ID_FO_PRINT_HEADER_FOOTER
+        MENUITEM "Page S&etup...",              ID_FILE_PAGE_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        POPUP "&Recent Files"
+        BEGIN
+            MENUITEM "Recent File",                 ID_FILE_MRU_FILE1
+            , GRAYED
+        END
+        POPUP "&Recent Workspaces"
+        BEGIN
+            MENUITEM "&Recent Workspaces",          ID_PROJECT_MRU_FILE1
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM "&Redo\tCtrl+Y",               ID_EDIT_REDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM "Multiple D&uplicate...",      ID_EDIT_MULTI_DUP
+        MENUITEM SEPARATOR
+        MENUITEM "Clea&r\tDel",                 ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "Select &All\tCtrl+A",         ID_EDIT_SELECT_ALL
+        MENUITEM "Clear A&ll\tShift+Del",       ID_EDIT_CLEAR_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "Them&e - Colors...",          ID_FO_COLORTHEME
+        MENUITEM SEPARATOR
+        MENUITEM "Insert &Objects...",          ID_INSERT_OBJECTS
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Normal",                     ID_FO_VIEW_NORMAL
+        MENUITEM "&Master",                     ID_FO_VIEW_EDITBACK
+        MENUITEM SEPARATOR
+        MENUITEM "&Full Screen",                ID_VIEW_FULLSCREEN
+        MENUITEM SEPARATOR
+        POPUP "&Application Look"
+        BEGIN
+            MENUITEM "Microsoft Office 2000 Look!", ID_LOOK_STANDARD
+            MENUITEM "Microsoft Office XP Look!",   ID_LOOK_XP
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "D&esign",                     ID_FO_DESIGN
+        MENUITEM "&Ruler",                      ID_VIEW_RULER
+        MENUITEM "&Draw Bar",                   ID_VIEW_DRAWBAR
+        MENUITEM "&Format Bar",                 ID_VIEW_FORMATBAR
+        MENUITEM "&Palette Bar",                ID_VIEW_PALETTEBAR
+        MENUITEM "Tool&Box",                    ID_VIEW_TOOLBOX
+        MENUITEM SEPARATOR
+        MENUITEM "Form &Setting...",            ID_FO_FORM_SETTING
+        MENUITEM "Grid &Properties...",         ID_FO_GRID_PROP
+        MENUITEM SEPARATOR
+        MENUITEM "&Components...",              ID_FO_COMPS_SELECT
+    END
+    POPUP "&Page"
+    BEGIN
+        MENUITEM "&Add Page\tCtrl+A",           ID_FO_ADD_NEWPAGE
+        MENUITEM "&Remove Page\tCtrl+R",        ID_FO_REMOVE_PAGE
+        MENUITEM "&Duplicate Page...",          ID_MB_CREATEPAGE_COPY
+        MENUITEM SEPARATOR
+        MENUITEM "&Rename Page\tCtrl+R",        ID_FO_PAGE_CAPTION
+        MENUITEM SEPARATOR
+        MENUITEM "&Previous Page\tAlt+Shift+Up", ID_MOVE_PREVIOUS
+        MENUITEM "&Next Page\tAlt+Shift+Down",  ID_MOVE_NEXT
+    END
+    POPUP "&Project"
+    BEGIN
+        MENUITEM "&Add new screen...",          ID_ADD_NEW_SCREEN
+        MENUITEM "Add new script...",           ID_ADD_NEW_SCRIPT
+    END
+    POPUP "&Insert"
+    BEGIN
+        MENUITEM "&Insert Custom Shape...",     ID_NEW_SHAPE
+        MENUITEM SEPARATOR
+        MENUITEM "&Custom Property...",         ID_FO_CUSTOM_PROPERTIES
+        MENUITEM "&Save Data to file...",       ID_SAVE_DATA
+    END
+    POPUP "Format"
+    BEGIN
+        MENUITEM "Edit &Points",                ID_FO_EDIT_SPOTS
+        MENUITEM SEPARATOR
+        MENUITEM "Con&vert to Bezier Curve",    ID_FO_CONVERT_PATH
+        MENUITEM "Convert to Pol&ygon",         ID_FO_CONVERT_POLYGON
+        MENUITEM SEPARATOR
+        MENUITEM "Connect L&ines",              ID_FO_CONNECT_LINES
+        MENUITEM "&Break Line",                 ID_FO_BREAK_LINES
+        MENUITEM "Close &Object",               ID_FO_CLOSESHAPE
+        MENUITEM SEPARATOR
+        MENUITEM "&Distribution...",            ID_FO_DISTRIBUTION
+        MENUITEM SEPARATOR
+        MENUITEM "&Make SubGraph",              ID_FO_MAKE_SUBGRAPH
+        MENUITEM "UnMake S&ubGraph",            ID_FO_UNGRAOUP_SUBGRAPH
+        MENUITEM SEPARATOR
+        MENUITEM "&Group",                      ID_FO_GROUP
+        MENUITEM "&UnGroup",                    ID_FO_UNGROUP
+        MENUITEM SEPARATOR
+        POPUP "&Rotate or Flip"
+        BEGIN
+            MENUITEM "&Free Rotate",                ID_FO_ROTATE
+            MENUITEM SEPARATOR
+            MENUITEM "Rotate &Left",                ID_FO_ROTATE_LEFT
+            MENUITEM "Rotate &Right",               ID_FO_ROTATE_RIGHT
+            MENUITEM "Flip &Horizontal",            ID_FO_FLIP_HORZ
+            MENUITEM "Flip Vertical",               ID_FO_FLIP_VERT
+        END
+        POPUP "&Order"
+        BEGIN
+            MENUITEM "&Bring to Front",             ID_FO_FRONT
+            MENUITEM "&Send to Back",               ID_FO_BACK
+            MENUITEM "Bring &Forward",              ID_FO_FORWARD
+            MENUITEM "Send Bac&kward",              ID_FO_BACKWARD
+            MENUITEM SEPARATOR
+            MENUITEM "&Infront Object",             ID_FO_INFRONT_SHAPE
+            MENUITEM "&Behind Object",              ID_FO_BEHIND_SHAPE
+            MENUITEM SEPARATOR
+            MENUITEM "&Reverse Order",              ID_FO_REVERSE_ORDER
+            MENUITEM SEPARATOR
+            MENUITEM "Send to bac&kground",         ID_FO_SET_BACKGROUND
+        END
+        MENUITEM SEPARATOR
+        POPUP "&Align"
+        BEGIN
+            MENUITEM "Align &Left",                 ID_FO_ALIGN_LEFT
+            MENUITEM "Align &Center",               ID_FO_ALIGN_CENTER
+            MENUITEM "Align &Right",                ID_FO_ALIGN_RIGHT
+            MENUITEM SEPARATOR
+            MENUITEM "Align &Top",                  ID_FO_ALIGN_TOP
+            MENUITEM "Align &Middle",               ID_FO_ALIGN_VCENTER
+            MENUITEM "Align &Bottom",               ID_FO_ALIGN_BOTTOM
+            MENUITEM SEPARATOR
+            MENUITEM "&Allow main object",          ID_FO_ALLOW_MAIN
+        END
+        POPUP "&Make Same Size"
+        BEGIN
+            MENUITEM "&Width",                      ID_FO_SIZE_WIDTH
+            MENUITEM "&Height",                     ID_FO_SIZE_HEIGHT
+            MENUITEM SEPARATOR
+            MENUITEM "&Both",                       ID_FO_SIZE_ALL
+        END
+        POPUP "&Center in Form"
+        BEGIN
+            MENUITEM "&Horizontal",                 ID_FO_ALIGN_INVIEW_HOR
+            MENUITEM "&Vertical",                   ID_FO_ALIGN_INVIEW_VER
+        END
+        MENUITEM SEPARATOR
+        POPUP "&Space Evenly"
+        BEGIN
+            MENUITEM "&Across",                     ID_FO_SPACE_ACROSS
+            MENUITEM "&Down",                       ID_FO_SPACE_DOWN
+        END
+        POPUP "&Operations"
+        BEGIN
+            MENUITEM "&Merge",                      ID_FO_SHAPES_MERGE_MERGE
+            MENUITEM "&Combine",                    ID_FO_SHAPES_COMBINE
+            MENUITEM "&Intersect",                  ID_FO_SHAPES_MERGE_INTERSECT
+
+            MENUITEM "&Substract",                  ID_FO_SHAPES_MERGE_SUBSTRACT
+
+            MENUITEM "&Dismantle",                  ID_FO_SHAPES_DISMANTLE
+        END
+        POPUP "Nudge"
+        BEGIN
+            MENUITEM "Nudge Left",                  ID_FO_CMD_NUDGELEFT
+            MENUITEM "Nudge Right",                 ID_FO_CMD_NUDGERIGHT
+            MENUITEM "Nudge Top",                   ID_FO_CMD_NUDGETOP
+            MENUITEM "Nudge Bottom",                ID_FO_CMD_NUDGEBOTTOM
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Tab &Order\tCtrl+D",          ID_FO_TAB_ORDER
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "Ne&xt\tCtrl+F6",              ID_WINDOW_NEXT
+        MENUITEM "Prev&ious\tCtrl+Shift+F6",    ID_WINDOW_PREV
+        MENUITEM "Clo&se\tAlt+F4",              ID_WINDOW_CLOSE
+        MENUITEM "Close &All",                  ID_FILE_CLOSE_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "Tile &Horizontally",          ID_WINDOW_TILE_HORZ
+        MENUITEM "Tile &Vertically",            ID_WINDOW_TILE_VERT
+        MENUITEM SEPARATOR
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+        MENUITEM SEPARATOR
+        MENUITEM "&Windows...",                 ID_WINDOW_MANAGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About MultisimDemo...",      ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 259, 231
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "About MultisimDemo"
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "E-XD++ Enterprise Edition V32.01 (Build 1/1/2022)",
+                    IDC_STATIC,7,60,245,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 1998-2022,ucancode.net Software All Rights Reserved.",
+                    IDC_STATIC,7,73,245,11
+    DEFPUSHBUTTON   "OK",IDOK,194,180,56,15,WS_GROUP
+    PUSHBUTTON      "System...",IDC_BUTTON_SYS1,194,200,56,15
+    LTEXT           "http://www.ucancode.net",IDC_HOMEPAGE,7,88,192,8
+    EDITTEXT        IDC_EDIT_SYS1,7,103,243,67,ES_MULTILINE | ES_OEMCONVERT | 
+                    ES_READONLY | ES_WANTRETURN | WS_VSCROLL
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,174,242,1
+    LTEXT           "Copyright: This product is Copyright (C) 1998-2022 by ucancode.net Software, all rights reserved. This product is protected by international copyright treaties and all other applicable national or international laws.",
+                    IDC_STATIC,7,177,184,47
+    CONTROL         131,IDC_STATIC,"Static",SS_BITMAP,7,7,95,42
+END
+
+IDD_DIALOG_LINE DIALOGEX 0, 0, 207, 255
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Description"
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&OK",IDOK,154,7,47,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,154,25,47,14
+    LTEXT           "Line Width:",IDC_STATIC,7,7,58,8
+    EDITTEXT        IDC_EDIT_SYS1,7,24,74,13,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,7,24,10,
+                    13
+    LTEXT           "Custom Property:",IDC_STATIC,7,52,75,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,75,56,125,1
+    LTEXT           "Description:",IDC_STATIC,7,155,102,8
+    EDITTEXT        IDC_EDIT_SYS2,7,168,194,78,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL
+    LTEXT           "Product &Name:",IDC_STATIC,7,68,53,8
+    EDITTEXT        IDC_EDIT_PRODUCT,7,80,194,14,ES_AUTOHSCROLL
+    LTEXT           "&Item:",IDC_STATIC,7,98,21,8
+    EDITTEXT        IDC_EDIT_ITEM,7,110,194,14,ES_AUTOHSCROLL
+    LTEXT           "Unit &Price:",IDC_STATIC,7,127,45,8
+    EDITTEXT        IDC_EDIT_UNITPRICE,14,138,70,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "$",IDC_STATIC,7,140,8,8
+END
+
+IDD_DIALOG_HTML DIALOGEX 0, 0, 279, 87
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Export to HTML"
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,222,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,222,24,50,14
+    LTEXT           "Specify a path name:",IDC_STATIC,7,47,81,8
+    EDITTEXT        IDC_EDIT_PATH,7,66,233,14,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "...",IDC_BUTTON_SYS1,240,66,32,14
+END
+
+IDD_MB_EVENT_EDITDLG6 DIALOGEX 0, 0, 198, 166
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Duplicate Page"
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&OK",IDOK,141,7,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,141,26,50,14
+    LTEXT           "Pages:",IDC_STATIC,7,7,47,8
+    LISTBOX         IDC_MB_PAGE_LIST,7,17,130,142,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_WIN_MANAGER DIALOGEX 0, 0, 329, 193
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Windows"
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Select &window to open:",IDC_STATIC,7,7,103,8
+    LISTBOX         IDC_LIST,7,17,246,169,LBS_SORT | LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_USETABSTOPS | LBS_NOINTEGRALHEIGHT | 
+                    LBS_EXTENDEDSEL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "&Actvate",IDC_ACTIVATE,257,7,65,15
+    PUSHBUTTON      "&Ok",IDOK,257,25,65,15
+    PUSHBUTTON      "&Save",IDC_SAVE1,257,43,65,15
+    PUSHBUTTON      "&Close Window(s)",IDC_CLOSE,257,61,65,15
+    PUSHBUTTON      "Cascade",IDC_CASCADE,257,79,65,15
+    PUSHBUTTON      "Tile &Horizontaly",IDC_TILEHORZ,257,97,65,15
+    PUSHBUTTON      "Tile &Verticaly",IDC_TILEVERT,257,115,65,15
+    PUSHBUTTON      "Minimize",IDC_MINIMIZE,257,133,65,15
+END
+
+IDD_DIALOG_NEWPAGE3 DIALOG DISCARDABLE  0, 0, 358, 213
+STYLE WS_CHILD | WS_DISABLED
+FONT 10, "MS Sans Serif"
+BEGIN
+    CONTROL         311,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,7,7,89,186
+    LTEXT           "The wizard will now create a new MultisimDemo project. If you need to make any changes, click ""Back"" button, Click ""Finish"" to create project.",
+                    IDC_STATIC,102,7,243,28
+    LTEXT           "&Description:",IDC_STATIC,101,140,135,8
+    EDITTEXT        IDC_EDIT_SYS1,101,153,244,53,ES_MULTILINE | WS_VSCROLL
+    LTEXT           "A&uthor:",IDC_STATIC,101,38,29,8
+    EDITTEXT        IDC_EDIT_SYS2,150,38,195,14,ES_AUTOHSCROLL
+    LTEXT           "&Department:",IDC_STATIC,101,56,45,8
+    EDITTEXT        IDC_EDIT_SYS3,150,55,195,14,ES_AUTOHSCROLL
+    LTEXT           "&E-Mail:",IDC_STATIC,101,74,29,8
+    EDITTEXT        IDC_EDIT_SYS4,150,72,195,14,ES_AUTOHSCROLL
+    LTEXT           "&URL:",IDC_STATIC,101,92,17,8
+    EDITTEXT        IDC_EDIT_SYS5,150,89,195,14,ES_AUTOHSCROLL
+    LTEXT           "Co&mpany:",IDC_STATIC,101,110,33,8
+    EDITTEXT        IDC_EDIT_SYS6,150,106,195,14,ES_AUTOHSCROLL
+    LTEXT           "&Copyright:",IDC_STATIC,101,128,41,8
+    EDITTEXT        IDC_EDIT_SYS7,150,123,195,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_NEWPAGE0 DIALOGEX 0, 0, 352, 210
+STYLE WS_CHILD | WS_DISABLED
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "&Template:",IDC_STATIC,9,7,37,8
+    CONTROL         "List1",IDC_LIST_SYS1,"SysListView32",LVS_SINGLESEL | 
+                    LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,8,19,337,111,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "Tips: system will create a new project for you.",
+                    IDC_TIPS,7,132,337,18,SS_SUNKEN
+    LTEXT           "Path",IDC_MSG1,7,192,337,9
+    LTEXT           "Project &Name:",IDC_STATIC,7,158,53,8
+    LTEXT           "&Location:",IDC_STATIC,7,176,37,8
+    EDITTEXT        IDC_EDIT_SYS1,89,156,255,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SYS3,89,174,234,14,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "...",IDC_BUTTON_SYS1,324,174,21,14
+END
+
+IDD_DIALOG_NEWMAIN DIALOGEX 0, 0, 354, 239
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "New Project"
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&Finish",ID_WIZFINISH,290,217,55,15
+    PUSHBUTTON      "&Exit",IDCANCEL,116,217,55,15
+    CONTROL         "",IDC_SHEETRECT,"Static",SS_ETCHEDFRAME | NOT 
+                    WS_VISIBLE,1,1,350,210
+    PUSHBUTTON      "<< &Previous",ID_WIZBACK,176,217,55,15
+    PUSHBUTTON      "&Next >>",ID_WIZNEXT,232,217,55,15
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,1,212,353,1
+END
+
+IDD_HMI_DUP_SET DIALOGEX 0, 0, 207, 165
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Dup Set"
+FONT 10, "Cambria", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&OK",IDOK,148,13,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,148,29,50,14
+    LTEXT           "Rows:",IDC_STATIC,13,27,35,8
+    LTEXT           "Columns:",IDC_STATIC,13,9,43,8
+    LTEXT           "Spaces between rows and columns:",IDC_STATIC,7,51,123,8
+    EDITTEXT        IDC_EDIT_ROWS,76,24,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_ROWS,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,115,24,11,
+                    14
+    EDITTEXT        IDC_EDIT_COLS,76,8,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin2",IDC_SPIN_COLS,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,115,8,11,
+                    14
+    LTEXT           "Row space:",IDC_STATIC,13,96,41,8
+    EDITTEXT        IDC_EDIT_H_SPACE,76,72,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin3",IDC_SPIN_H,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,117,70,11,
+                    14
+    LTEXT           "Column space:",IDC_STATIC,13,74,53,8
+    EDITTEXT        IDC_EDIT_V_SPACE,76,93,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin4",IDC_SPIN_V,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,117,94,11,
+                    14
+    CONTROL         "Start Color",IDC_FO_FORM_COLOR,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,76,121,91,15
+    CONTROL         "End Color",IDC_FO_PAGE_BACKGROUND,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,76,140,91,15
+    LTEXT           "Start:",IDC_STATIC,13,129,24,8
+    LTEXT           "End:",IDC_STATIC,13,143,36,8
+    LTEXT           "Color Change:",IDC_STATIC,6,115,69,8
+END
+
+IDD_HMI_TRS_OPEN DIALOGEX 0, 0, 383, 237
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Select a component"
+FONT 10, "Cambria", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "&Import file..",IDC_BUTTON_LOAD,301,211,62,14
+    CONTROL         "Delete File..",IDC_BUTTON_DELETE,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,301,195,62,14
+    CONTROL         "&Open",IDOK,"Button",BS_OWNERDRAW | WS_TABSTOP,301,163,
+                    62,14
+    LISTBOX         IDC_EDIT_TEXT,8,46,140,163,LBS_SORT | 
+                    LBS_OWNERDRAWVARIABLE | LBS_HASSTRINGS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Please select which page you want to add:",IDC_STATIC,8,
+                    34,140,8
+    LTEXT           "",IDC_DESCRI,8,211,140,21,SS_SUNKEN
+    LISTBOX         IDC_LIST_SHAPES,153,34,127,198,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_FIND,153,18,107,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_SEARCH,261,17,19,14
+    CONTROL         "",IDC_STATIC_PREVIEW,"Static",SS_BLACKFRAME | NOT 
+                    WS_VISIBLE,286,17,92,82
+    COMBOBOX        IDC_COMBO_DB,8,19,140,47,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Database:",IDC_STATIC,8,6,45,8
+    LTEXT           "Component:",IDC_STATIC,154,6,45,8
+    LTEXT           "Symbol Preview:",IDC_STATIC,285,6,84,8
+    PUSHBUTTON      "C&ancel",IDCANCEL,301,179,62,14
+END
+
+IDD_DIALOG_SUB_SET DIALOGEX 0, 0, 207, 158
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Title Setting"
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&OK",IDOK,101,137,47,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,153,137,47,14
+    LTEXT           "Title:",IDC_STATIC,7,7,102,8
+    EDITTEXT        IDC_EDIT_SYS2,7,17,194,15,ES_AUTOHSCROLL | ES_WANTRETURN
+    LTEXT           "Reconnect to sub system:",IDC_STATIC,7,37,137,8
+    LISTBOX         IDC_LIST_MODELS,7,50,193,81,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOG_PROPDLG DIALOGEX 0, 0, 244, 207
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Shape Properties"
+FONT 11, "Tahoma"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,187,7,50,12
+    PUSHBUTTON      "Cancel",IDCANCEL,187,24,50,12
+    CONTROL         "",IDC_PROP1,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,7,7,
+                    168,193
+    PUSHBUTTON      "Add New...",IDC_BUTTON_CUST,187,43,50,12
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 32,0,1,1
+ PRODUCTVERSION 32,0,1,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "E-XD++ Visualization Enterprise Edition\0"
+            VALUE "CompanyName", "ucancode.net Software\0"
+            VALUE "FileDescription", "MultisimDemo MFC Application\0"
+            VALUE "FileVersion", "32, 0, 1, 1\0"
+            VALUE "InternalName", "MultisimDemo\0"
+            VALUE "LegalCopyright", "Copyright (C) 1998-2022,by ucancode.net software\0"
+            VALUE "LegalTrademarks", "E-XD++ Visualization Enterprise Edition\0"
+            VALUE "OriginalFilename", "MultisimDemo.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "MultisimDemo Application\0"
+            VALUE "ProductVersion", "32, 0, 1, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 252
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 224
+    END
+
+    IDD_DIALOG_LINE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 248
+    END
+
+    IDD_DIALOG_HTML, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 272
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 80
+    END
+
+    IDD_MB_EVENT_EDITDLG6, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 191
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 159
+    END
+
+    IDD_WIN_MANAGER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 322
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 186
+    END
+
+    IDD_DIALOG_NEWPAGE3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 351
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 206
+    END
+
+    IDD_DIALOG_NEWPAGE0, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 345
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_DIALOG_NEWMAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 347
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 232
+    END
+
+    IDD_DIALOG_SUB_SET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 151
+    END
+
+    IDD_DIALOG_PROPDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 237
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 200
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_NEW_FORMAT TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FO_DESIGN
+    BUTTON      ID_FO_DRAGDROPALLOW
+    BUTTON      ID_FO_GRID
+    BUTTON      ID_FO_GUIDES
+    BUTTON      ID_FO_GRID_SNAP
+    BUTTON      ID_FO_GLUE_TO_HELPLINE
+    BUTTON      ID_FO_GLUE_TO_SHAPE
+    BUTTON      ID_FO_GLUE_TO_SHAPE_SPOT
+    BUTTON      ID_FO_GLUE_TO_INTERSECT_POINT
+    BUTTON      ID_FO_MARGIN
+    BUTTON      ID_FO_POTS
+    BUTTON      ID_FO_DRAW_FROMCENTER
+    BUTTON      ID_FO_MAKELINK
+    BUTTON      ID_FO_DISTRIBUTION
+    BUTTON      ID_FO_CMD_AUTOPAN
+    BUTTON      ID_FO_EVENT_PROPERTIES
+    BUTTON      ID_LAYERS
+    BUTTON      ID_FO_LAYER_SETTING
+    BUTTON      ID_FO_COMPS_SELECT
+    BUTTON      ID_FO_VIEW_SCALESUB25
+    BUTTON      ID_FO_VIEW_SCALEADD25
+    BUTTON      ID_ZOOM_VALUE
+    BUTTON      ID_FO_VIEW_ZOOM100
+    BUTTON      ID_FO_ZOOMFITPAGE
+    BUTTON      ID_FO_ZOOMFITWIDTH
+    BUTTON      ID_FO_ZOOM_FITSELECT
+    BUTTON      ID_FO_ZOOMWITHINRECT
+    BUTTON      ID_DROP_MENU
+END
+
+IDR_FONT_BAR TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FONT_FACENAME
+    BUTTON      ID_FONT_TYPESIZE
+    BUTTON      ID_FONT_STYLE_BOLD
+    BUTTON      ID_FONT_STYLE_ITALIC
+    BUTTON      ID_FONT_STYLE_UNDERLINE
+    BUTTON      ID_FONT_LEFT_ALIGN
+    BUTTON      ID_FONT_CENTER
+    BUTTON      ID_FONT_RIGHT_ALIGN
+    BUTTON      ID_FONT_TOP_ALIGN
+    BUTTON      ID_FONT_VCENTER_ALIGN
+    BUTTON      ID_FONT_BOTTOM_ALIGN
+    BUTTON      ID_FONT_BULLETED
+    BUTTON      ID_FONT_BIG
+    BUTTON      ID_FONT_SMALL
+    BUTTON      ID_FONT_COLOR
+    BUTTON      ID_FONT_ARROW0
+    BUTTON      ID_LINE_COLOR
+    BUTTON      ID_LINE_ARROW0
+    BUTTON      ID_FILL_COLOR
+    BUTTON      ID_FILL_ARROW0
+    BUTTON      ID_LINE_WIDTH
+    BUTTON      ID_LINE_WIDTH_ARROW0
+    BUTTON      ID_LINE_TYPE
+    BUTTON      ID_LINE_TYPE_ARROW0
+END
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_NEW_PROJECT
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_ARROW0
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_ARROW1
+    BUTTON      ID_FILE_SAVE
+    BUTTON      ID_SAVE_ALL
+    BUTTON      ID_EDIT_UNDO
+    BUTTON      ID_UNDODROPARROW
+    BUTTON      ID_EDIT_REDO
+    BUTTON      ID_REDODROPARROW
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    BUTTON      ID_VIEW_TOOLBOX
+    BUTTON      ID_VIEW_FULLSCREEN
+    BUTTON      ID_VIEW_RULER
+    BUTTON      ID_FO_ADD_NEWPAGE
+    BUTTON      ID_FO_REMOVE_PAGE
+    BUTTON      ID_MOVE_PREVIOUS
+    BUTTON      ID_MOVE_NEXT
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_FO_COLORTHEME
+    BUTTON      IDM_MAIL_ME
+    BUTTON      ID_WINDOW_MANAGE
+    BUTTON      ID_HIDE_ALL_SNAP
+    BUTTON      ID_BUTTON_EXPORT_CANVAS
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_TEMP TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_ADD_NEW_SCREEN
+    BUTTON      ID_ADD_NEW_SCRIPT
+    BUTTON      ID_DRAW_SHORT_H
+    BUTTON      ID_DRAW_SHORT_V
+    BUTTON      ID_DRAW_DOUBLE_H
+    BUTTON      ID_DRAW_3_H
+    BUTTON      ID_DRAW_DOUBLE_V
+    BUTTON      ID_DRAW_3_V
+    BUTTON      ID_FO_LINK_TURNCORNER
+    BUTTON      ID_NEW_SCRIPT
+    BUTTON      ID_WINDOW_NEW
+    BUTTON      ID_WINDOW_CASCADE
+    BUTTON      ID_WINDOW_TILE_HORZ
+    BUTTON      ID_WINDOW_TILE_VERT
+    BUTTON      ID_WINDOW_NEXT
+    BUTTON      ID_WINDOW_PREV
+    BUTTON      ID_WINDOW_CLOSE
+    BUTTON      ID_OPEN_SAMPLES
+END
+
+IDR_TOOLBAR_DRAW_ADV TOOLBAR DISCARDABLE  24, 24
+BEGIN
+    BUTTON      ID_FO_DRAW_SELECT
+    SEPARATOR
+    BUTTON      ID_DRAW_1001
+    BUTTON      ID_DRAW_1002
+    BUTTON      ID_DRAW_1003
+    BUTTON      ID_DRAW_1004
+    BUTTON      ID_DRAW_1005
+    BUTTON      ID_DRAW_1006
+    BUTTON      ID_DRAW_1007
+    BUTTON      ID_DRAW_1008
+    BUTTON      ID_DRAW_1009
+    BUTTON      ID_DRAW_1010
+    BUTTON      ID_DRAW_1011
+    BUTTON      ID_DRAW_1012
+    BUTTON      ID_DRAW_1013
+    BUTTON      ID_DRAW_1014
+    BUTTON      ID_DRAW_1015
+    BUTTON      ID_DRAW_1016
+    BUTTON      ID_DRAW_C_100_1
+    BUTTON      ID_DRAW_C_100_2
+    BUTTON      ID_MATHER_DOT
+    BUTTON      ID_DRAW_1017
+    BUTTON      ID_DRAW_1018
+    BUTTON      ID_DRAW_1019
+    BUTTON      ID_DRAW_1020
+    BUTTON      ID_DRAW_1030
+    BUTTON      ID_DRAW_1032
+    BUTTON      ID_DRAW_1031
+    BUTTON      ID_DRAW_1033
+    BUTTON      ID_DRAW_1034
+    BUTTON      ID_DRAW_SUB_GRAPH
+    BUTTON      ID_DRAW_OPEN_SYM
+    BUTTON      ID_DRAW_SHAPE
+    SEPARATOR
+    BUTTON      ID_FO_DRAW_LINE
+    BUTTON      ID_FO_DRAW_POLYLINE
+    BUTTON      ID_FO_DRAW_POLYGON
+    BUTTON      ID_FO_DRAW_RECTANGLE
+    BUTTON      ID_FO_DRAW_STATIC
+    BUTTON      ID_FO_DRAW_PIE
+    BUTTON      ID_FO_DRAW_ARC2
+    BUTTON      ID_FO_DRAW_ELLIPSE
+    BUTTON      ID_FO_DRAW_IMAGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "A",            ID_EDIT_SELECT_ALL,     VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_EDIT_FIND,           VIRTKEY, CONTROL, NOINVERT
+    "H",            ID_EDIT_REPLACE,        VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP_FINDER,         VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F3,          ID_EDIT_REPEAT,         VIRTKEY, NOINVERT
+    VK_F5,          ID_MB_PREVIEW,          VIRTKEY, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_F8,          ID_MB_RELEASE,          VIRTKEY, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Y",            ID_EDIT_REDO,           VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR_DRAW         CURSOR  DISCARDABLE     "res\\cursor_d.cur"
+IDC_MATHER_CURSOR2      CURSOR  DISCARDABLE     "res\\cur00022.cur"
+IDC_MATHER_CURSOR1      CURSOR  DISCARDABLE     "res\\cur00001.cur"
+IDC_MATHER_CURSOR       CURSOR  DISCARDABLE     "res\\mather_c.cur"
+IDC_CURSOR_GLUE1        CURSOR  DISCARDABLE     "res\\cursor_g.cur"
+IDC_CURSOR_GLUE         CURSOR  DISCARDABLE     "res\\cur00021.cur"
+IDC_MATHER_CURSOR5      CURSOR  DISCARDABLE     "res\\cur00025.cur"
+IDC_MATHER_CURSOR4      CURSOR  DISCARDABLE     "res\\cur00024.cur"
+IDC_MATHER_CURSOR3      CURSOR  DISCARDABLE     "res\\cur00023.cur"
+IDC_MATHER_CURSOR6      CURSOR  DISCARDABLE     "res\\cur00002.cur"
+IDC_MATHER_CURSOR7      CURSOR  DISCARDABLE     "res\\cur00003.cur"
+IDC_MATHER_CURSOR8      CURSOR  DISCARDABLE     "res\\cur00004.cur"
+IDC_CURSOR_1025         CURSOR  DISCARDABLE     "res\\cur00030.cur"
+IDC_CURSOR_1024         CURSOR  DISCARDABLE     "res\\cur00029.cur"
+IDC_CURSOR_1023         CURSOR  DISCARDABLE     "res\\cur00028.cur"
+IDC_CURSOR_1022         CURSOR  DISCARDABLE     "res\\cur00027.cur"
+IDC_CURSOR_1021         CURSOR  DISCARDABLE     "res\\cur00026.cur"
+IDC_CURSOR_1020         CURSOR  DISCARDABLE     "res\\cur00020.cur"
+IDC_CURSOR_1019         CURSOR  DISCARDABLE     "res\\cur00019.cur"
+IDC_CURSOR_1018         CURSOR  DISCARDABLE     "res\\cur00018.cur"
+IDC_CURSOR_1017         CURSOR  DISCARDABLE     "res\\cur00017.cur"
+IDC_CURSOR_1016         CURSOR  DISCARDABLE     "res\\cur00016.cur"
+IDC_CURSOR_1015         CURSOR  DISCARDABLE     "res\\cur00015.cur"
+IDC_CURSOR_1014         CURSOR  DISCARDABLE     "res\\cur00014.cur"
+IDC_CURSOR_1013         CURSOR  DISCARDABLE     "res\\cur00013.cur"
+IDC_CURSOR_1012         CURSOR  DISCARDABLE     "res\\cur00012.cur"
+IDC_CURSOR_1011         CURSOR  DISCARDABLE     "res\\cur00011.cur"
+IDC_CURSOR_1010         CURSOR  DISCARDABLE     "res\\cur00010.cur"
+IDC_CURSOR_1009         CURSOR  DISCARDABLE     "res\\cur00009.cur"
+IDC_CURSOR_1008         CURSOR  DISCARDABLE     "res\\cur00008.cur"
+IDC_CURSOR_1007         CURSOR  DISCARDABLE     "res\\cur00007.cur"
+IDC_CURSOR_1006         CURSOR  DISCARDABLE     "res\\cur00006.cur"
+IDC_CURSOR_1005         CURSOR  DISCARDABLE     "res\\cur00005.cur"
+IDC_CURSOR_1004         CURSOR  DISCARDABLE     "res\\cur00031.cur"
+IDC_CURSOR_1003         CURSOR  DISCARDABLE     "res\\cur00032.cur"
+IDC_CURSOR_1002         CURSOR  DISCARDABLE     "res\\cur00033.cur"
+IDC_CURSOR_1001         CURSOR  DISCARDABLE     "res\\cursor_1.cur"
+IDC_LINK_CURSOR         CURSOR  DISCARDABLE     "res\\link_cur.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_HMI_TRS_OPEN DLGINIT
+BEGIN
+    IDC_COMBO_DB, 0x403, 8, 0
+0x6544, 0x6166, 0x6c75, 0x0074, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// COMPSRES
+//
+
+IDR_D_130               COMPSRES DISCARDABLE    "res\\comp130.sid"
+IDR_D_1034              COMPSRES DISCARDABLE    "res\\comp134.sid"
+IDR_D_1033              COMPSRES DISCARDABLE    "res\\comp133.sid"
+IDR_D_1032              COMPSRES DISCARDABLE    "res\\comp132.sid"
+IDR_D_1031              COMPSRES DISCARDABLE    "res\\comp131.sid"
+IDR_D_1020              COMPSRES DISCARDABLE    "res\\p_1020.sid"
+IDR_D_1019              COMPSRES DISCARDABLE    "res\\p_1019.sid"
+IDR_D_1018              COMPSRES DISCARDABLE    "res\\p_1018.sid"
+IDR_D_1017              COMPSRES DISCARDABLE    "res\\p_1017.sid"
+IDR_D_1016              COMPSRES DISCARDABLE    "res\\p_1016.sid"
+IDR_D_1015              COMPSRES DISCARDABLE    "res\\p_1015.sid"
+IDR_D_1014              COMPSRES DISCARDABLE    "res\\p_1014.sid"
+IDR_D_1013              COMPSRES DISCARDABLE    "res\\p_1013.sid"
+IDR_D_1012              COMPSRES DISCARDABLE    "res\\p_1012.sid"
+IDR_D_1011              COMPSRES DISCARDABLE    "res\\p_1011.sid"
+IDR_D_1010              COMPSRES DISCARDABLE    "res\\p_1010.sid"
+IDR_D_1009              COMPSRES DISCARDABLE    "res\\p_1009.sid"
+IDR_D_1008              COMPSRES DISCARDABLE    "res\\p_1008.sid"
+IDR_D_1007              COMPSRES DISCARDABLE    "res\\p_1007.sid"
+IDR_D_1006              COMPSRES DISCARDABLE    "res\\p_1006.sid"
+IDR_D_1005              COMPSRES DISCARDABLE    "res\\p_1005.sid"
+IDR_D_1004              COMPSRES DISCARDABLE    "res\\p_1004.sid"
+IDR_D_1003              COMPSRES DISCARDABLE    "res\\p_1003.sid"
+IDR_D_1002              COMPSRES DISCARDABLE    "res\\p_1002.sid"
+IDR_D_1001              COMPSRES DISCARDABLE    "res\\p_1001.sid"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "MultisimDemo"
+    IDR_MULTISTYPE          "\nMultis\nMultis\nMultis Files (*.ms0)\n.ms0\nMultisimDemo.Document\nMultis Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "MultisimDemo"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    AFX_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_CLOSE_ALL       "Close all documents\nClose all"
+    ID_WINDOW_MANAGE        "Show windows list window\nShow windows list window"
+    ID_PARAM_MANAGER        "Parameter Manager\nParameter Manager"
+    ID_EDIT_MULTI_DUP       "Multiple D&uplicate\nMultiple D&uplicate"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_MOVE_PREVIOUS        "Moving to previous page\nPrevious Page"
+    ID_MOVE_NEXT            "Moving to next page\nNext Page"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_MB_CREATEPAGE_COPY   "Create a copy of the page"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEXT          "Switch to the next window\nNext Window"
+    ID_WINDOW_PREV          "Switch back to the previous window\nPrevious Window"
+    ID_WINDOW_CLOSE         "Close the active document\nClose"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEW_SCRIPT           "New Script File\nNew Script File"
+    ID_MB_PREVIEW           "Run it now\nRun it now"
+    ID_MB_RELEASE           "Build...\nBuild..."
+    ID_ADD_NEW_SCREEN       "Add new screen into project\nAdd new screen into project"
+    ID_ADD_NEW_SCRIPT       "Add new script into project\nAdd new script"
+    IDS_PROJECT_MSG7        "Error with opening this project!"
+    IDS_PROJECT_MSG9        "This is a not supported feature, you need build it by yourself."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_SAMPLETYPE          "\nSample\nSample\nC++ Files (*.msp)\n.msp\nSample.Document\nSample Document"
+    IDS_PROJECT_MSG12       "This project file had been changed, do you want to save it before exist?"
+    IDS_PROJECT_MSG13       "You placed a large amount of data on the Clipboard.  Do you want this data to be available to other applications after you quit MultisimDemo?"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEW_PROJECT          "New Project\nNew Project"
+    IDS_PROJECT_TIP         "Creating a new project from the select type."
+    IDS_PROJECT_MSG1        "You must select at least one project type for creating!"
+    IDS_PROJECT_MSG2        "The project name cann't be empty!"
+    ID_SAVE_ALL             "Save all\nSave All"
+    IDS_PROJECT_MSG3        "No correct project name is used!"
+    IDS_PROJECT_MSG4        "There is an exist project with the same name that you entered, please correct it before click next button."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_HIDE_PIN_NUMBER      "Hide pin number\nHide pin number"
+    ID_HIDE_PIN_LABEL       "Hide pin name\nHide pin name"
+    ID_BUTTON_EXPORT_CANVAS "Export Selection part of canvas to image file\nExport Selection part of canvas to image file"
+    ID_CONVERT_SVG_SHAPES   "Import SVG File\nImport SVG File"
+    ID_HIDE_ALL_SNAP        "Hide all snap features\nHide all snap"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PROJECT_MENU1       "&New Screen\tINS"
+    IDS_PROJECT_MENU2       "New Script\tCtrl+INS"
+    IDS_PROJECT_MENU3       "Rename\tF2"
+    IDS_PROJECT_MENU4       "Delete\tDEL"
+    IDS_PROJECT_MENU5       "Add"
+    IDS_PROJECT_MENU6       "&Project Setting..."
+    IDS_PROJECT_MENU7       "&Explore Project Folder..."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PROJECT_MENU8       "&Refresh\tF5"
+    IDS_PROJECT_MENU9       "&Application Publisher...\tF5"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\MultisimDemo.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+#include "fores.rc"
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
